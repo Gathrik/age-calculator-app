@@ -24,21 +24,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    max-width: 300px; /* Adjust as needed */
+    max-width: 300px;
 }
 
 .input-group {
-    display: flex; /* Display input fields horizontally */
-    flex-direction: row; /* Arrange input fields horizontally */
-    align-items: center; /* Vertically center input fields */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 
 .input-group label {
     font-weight: bold;
     margin-right: 10px;
+    color: hsl(0, 1%, 44%);
 }
-
 
 .input-group input {
     width: 60px;
