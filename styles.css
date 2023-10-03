@@ -1,28 +1,25 @@
-/* Apply styles to the entire body for centering */
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #f0f0f0; /* Set background color as desired */
+    background-color: #f0f0f0;
     font-family: 'Poppins', sans-serif;
 }
 
-/* Style the container for the age calculator */
 .container {
-    background-color: #fff; /* Set container background color */
+    background-color: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    display: flex; /* Use flexbox to arrange elements vertically */
-    flex-direction: column; /* Arrange elements vertically */
-    justify-content: center; /* Center elements vertically */
-    align-items: center; /* Horizontally center elements */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-/* Style the form */
 #ageForm {
     display: flex;
     flex-direction: column;
@@ -30,22 +27,21 @@ body {
     max-width: 300px; /* Adjust as needed */
 }
 
-/* Style input groups */
 .input-group {
     display: flex; /* Display input fields horizontally */
     flex-direction: row; /* Arrange input fields horizontally */
     align-items: center; /* Vertically center input fields */
 }
 
-/* Style labels for input fields */
+
 .input-group label {
     font-weight: bold;
-    margin-right: 10px; /* Add some spacing between label and input */
+    margin-right: 10px;
 }
 
-/* Style input fields as small rectangles */
+
 .input-group input {
-    width: 60px; /* Adjust the width as needed */
+    width: 60px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -53,14 +49,12 @@ body {
     text-align: center;
 }
 
-/* Add some spacing between input fields */
 .input-group input + input {
-    margin-left: 10px; /* Adjust the spacing as needed */
+    margin-left: 10px;
 }
 
-/* Style the submit button */
 #ageForm button {
-    background-color: #007bff; /* Set button background color */
+    background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -71,19 +65,5 @@ body {
 }
 
 #ageForm button:hover {
-    background-color: #0056b3; /* Set button hover color */
-}
-
-/* Style the result container */
-.result {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-/* Style each result line */
-.result p {
-    flex: 1;
-    text-align: center;
+    background-color: #0056b3;
 }
