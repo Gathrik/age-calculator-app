@@ -62,7 +62,7 @@ body {
     float: right;
     cursor: pointer;
     margin-right: 10px;
-    margin-top: -40px;
+    margin-top: -33px;
     transition: background-color 0.3s ease;
 }
 
@@ -78,5 +78,28 @@ body {
 #result {
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#result p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.highlight {
+    color: hsl(259, 100%, 65%);
+}
+
+hr {
+    width: 534px;
+    border-style: solid;
+    border-width: 0px;
+    border-color: grey;
+    border-top-width: 1px;
+    margin-right: 2px;
+}
+
+.input-error {
+    border-color: red;
 }
